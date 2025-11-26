@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformatics Opportunities Hub - India</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Slate 50 */
+        }
+        .container-shadow {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        /* Custom styles for collapsible list */
+        .collapsible-header {
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .collapsible-header:hover {
+            background-color: #e0e7ff; /* Indigo 100 */
+        }
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
+            padding: 0 1rem;
+        }
+        .collapsible-content.open {
+            max-height: 2000px; /* Large enough value to show all content */
+            padding: 1rem;
+        }
+        .rotate-arrow {
+            transition: transform 0.3s ease;
+        }
+        .rotate-arrow.open {
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <header class="bg-indigo-700 text-white p-6 shadow-lg">
+        <div class="max-w-7xl mx-auto">
+            <!-- UPDATED HEADER -->
+            <h1 class="text-3xl font-bold">🧬 AuroSeqTech Bioinformatics 🇮🇳</h1>
+            <p class="mt-1 text-indigo-200">NGS Data Analysis & Career Opportunities in India</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Introduction Section -->
+        <section class="mb-10 p-6 bg-white rounded-xl container-shadow border-t-4 border-indigo-500">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Navigating Your Bioinformatics Career</h2>
+            <p class="text-gray-600">
+                The field of Bioinformatics in India is robustly supported by government-funded research bodies (DBT, ICMR, ICAR) for fundamental and translational genomics. Opportunities span from cutting-edge academic research to specialized roles in diagnostics, drug discovery, and healthcare data analysis within the private sector.
+            </p>
+            <p class="mt-2 text-sm text-gray-500">
+                Major opportunities include PhD programs, Postdoctoral Fellowships (PDF), Junior Research Fellowships (JRF), and industry roles like Bioinformatics Analyst and Data Scientist.
+            </p>
+        </section>
+        
+        <!-- NEW SECTION: Key Roles and Qualifications -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 border-gray-200">Key Roles & Essential Qualifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Role Card 1: Research Fellow/Analyst (Govt/Academia) -->
+                <div class="p-4 bg-yellow-50 rounded-lg container-shadow border-l-4 border-yellow-500">
+                    <p class="text-lg font-bold text-yellow-800">Research Fellow (JRF/SRF/PDF)</p>
+                    <p class="text-sm text-gray-700 mt-1">Focus: Algorithm development, deep biological research (Genomics, Proteomics).</p>
+                    <div class="mt-2 space-y-1">
+                        <p class="text-xs font-semibold text-gray-600">Qualification:</p>
+                        <ul class="text-xs text-gray-500 list-disc ml-4">
+                            <li>M.Sc./M.Tech. in Bioinformatics/Computational Biology (for JRF/SRF)</li>
+                            <li>Ph.D. in related field (Mandatory for PDF/Research Scientist)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role Card 2: Bioinformatics Analyst/Specialist (Academia/Industry) -->
+                <div class="p-4 bg-green-50 rounded-lg container-shadow border-l-4 border-green-500">
+                    <p class="text-lg font-bold text-green-800">Bioinformatics Analyst / Biostatistician</p>
+                    <p class="text-sm text-gray-700 mt-1">Focus: Pipeline execution, statistical analysis, data interpretation (NGS/Clinical).</p>
+                    <div class="mt-2 space-y-1">
+                        <p class="text-xs font-semibold text-gray-600">Qualification:</p>
+                        <ul class="text-xs text-gray-500 list-disc ml-4">
+                            <li>B.Tech./M.Sc. in Bioinformatics or Life Sciences + strong Python/R skills.</li>
+                            <li>Proficiency in Bioconductor, Tidyverse, or similar statistical packages.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role Card 3: Computational/Data Scientist (Industry/AI) -->
+                <div class="p-4 bg-blue-50 rounded-lg container-shadow border-l-4 border-blue-500">
+                    <p class="text-lg font-bold text-blue-800">Computational Biologist / Data Scientist</p>
+                    <p class="text-sm text-gray-700 mt-1">Focus: Machine Learning (ML), AI model development, Systems Biology.</p>
+                    <div class="mt-2 space-y-1">
+                        <p class="text-xs font-semibold text-gray-600">Qualification:</p>
+                        <ul class="text-xs text-gray-500 list-disc ml-4">
+                            <li>M.Tech./Ph.D. with expertise in ML/Deep Learning frameworks (TensorFlow/PyTorch).</li>
+                            <li>Experience in cloud computing (AWS, GCP) is highly valued.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRIVATE SECTOR OPPORTUNITIES -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-green-700 mb-6">1. Private Sector & Industry Opportunities</h2>
+            <p class="text-gray-600 mb-4">
+                These companies focus on commercial applications, diagnostics, contract research, and providing specialized sequencing analysis services. Roles require strong programming and product development skills.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- NEW CARD: AuroSeqTech (Top) -->
+                <div class="p-4 bg-white rounded-lg container-shadow border-t-4 border-lime-500 hover:ring-2 ring-lime-300 transition duration-300">
+                    <p class="text-lg font-bold text-lime-700">AuroSeqTech</p>
+                    <p class="text-sm text-gray-500">Focus: **NGS Data Analysis (WGS, RNA-Seq), Bioinformatics Training.**</p>
+                    <p class="text-xs text-gray-500 mt-2">Specializes in providing sequencing analysis services and expert consultation for research clients.</p>
+                </div>
+                <!-- Existing Cards -->
+                <div class="p-4 bg-white rounded-lg container-shadow border-t-4 border-green-500 hover:ring-2 ring-green-300 transition duration-300">
+                    <p class="text-lg font-bold text-green-600">MedGenome Labs / Diagnostics</p>
+                    <p class="text-sm text-gray-500">Focus: Genetic Diagnostic Services, Clinical Data Analysis.</p>
+                    <p class="text-xs text-gray-500 mt-2">Analyzing patient genomic data for clinical reports (e.g., cancer, rare diseases).</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg container-shadow border-t-4 border-green-500 hover:ring-2 ring-green-300 transition duration-300">
+                    <p class="text-lg font-bold text-green-600">Jubilant Biosys / CRDMOs</p>
+                    <p class="text-sm text-gray-500">Focus: Computational Chemistry, Structural Biology, Drug Discovery.</p>
+                    <p class="text-xs text-gray-500 mt-2">Roles in Molecular Docking, MD simulations, and QSAR studies for drug development.</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg container-shadow border-t-4 border-green-500 hover:ring-2 ring-green-300 transition duration-300">
+                    <p class="text-lg font-bold text-green-600">Elucidata / Data Science Platforms</p>
+                    <p class="text-sm text-gray-500">Focus: Biomedical Data Harmonization, Machine Learning.</p>
+                    <p class="text-xs text-gray-500 mt-2">Developing tools and platforms for handling multi-omics data at scale.</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg container-shadow border-t-4 border-green-500 hover:ring-2 ring-green-300 transition duration-300">
+                    <p class="text-lg font-bold text-green-600">Institute of Bioinformatics and Applied Biotechnology (IBAB)</p>
+                    <p class="text-sm text-gray-500">Focus: Academic/Industry Bridge, Applied Proteomics.</p>
+                    <p class="text-xs text-gray-500 mt-2">Offers specialized courses and research, often collaborating closely with industry.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- GOVERNMENT & PUBLIC SECTOR OPPORTUNITIES -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-indigo-700 mb-6">2. Government & Academic Research (Public Sector)</h2>
+            
+            <!-- Category 1: Medical, Genomics, & Translational Health (DBT & Key ICMR) -->
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2 border-indigo-200">
+                    <svg class="w-5 h-5 inline mr-2 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.192-2.044-.56-2.944z"></path></svg>
+                    Genomics, Health, and Basic Life Sciences (DBT, ICMR, DST Centers)
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Specific DBT Institutes -->
+                    <div class="p-4 bg-white rounded-lg container-shadow hover:ring-2 ring-indigo-300 transition duration-300">
+                        <p class="text-lg font-bold text-indigo-600">CDFD, NIBMG, NIAB, NCCS, NBRC</p>
+                        <p class="text-sm text-gray-500">Focus: Genetics, Animal Biotech, Neuro-Informatics, and Cell Biology.</p>
+                        <p class="text-xs text-gray-500 mt-2">Core DBT institutes driving high-end computational research.</p>
+                    </div>
+                     <div class="p-4 bg-white rounded-lg container-shadow hover:ring-2 ring-indigo-300 transition duration-300">
+                        <p class="text-lg font-bold text-indigo-600">THSTI, ILS, RGCB, NII, KIHT</p>
+                        <p class="text-sm text-gray-500">Focus: Immunology, Drug Design, Translational Health and Life Sciences.</p>
+                        <p class="text-xs text-gray-500 mt-2">Biotech centers with clinical/translational research mandates.</p>
+                    </div>
+                    <!-- ICMR Network Summary Card -->
+                    <div class="p-4 bg-white rounded-lg container-shadow hover:ring-2 ring-indigo-300 transition duration-300">
+                        <p class="text-lg font-bold text-indigo-600">ICMR Network (NIV, NIN, NIE, NIRT, NICED, etc.)</p>
+                        <p class="text-sm text-gray-500">Focus: Epidemiology, Disease Modeling, Viral Genomics, Nutrition, Biostatistics.</p>
+                        <p class="text-xs text-gray-500 mt-2">Covers all your ICMR centers, specializing in public health and clinical data.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 2: Agriculture, Food, & Environmental Genomics (ICAR & Specific DBT) -->
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2 border-indigo-200">
+                    <svg class="w-5 h-5 inline mr-2 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.333 0 2.627.522 3.56 1.455.933.933 1.455 2.227 1.455 3.56s-.522 2.627-1.455 3.56A5.002 5.002 0 0112 18c-1.333 0-2.627-.522-3.56-1.455-.933-.933-1.455-2.227-1.455-3.56s.522-2.627 1.455-3.56A5.002 5.002 0 0112 8z"></path></svg>
+                    Agricultural Genomics & Plant Sciences (ICAR, DBT)
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Specific DBT/DST Agri Institutes -->
+                    <div class="p-4 bg-white rounded-lg container-shadow hover:ring-2 ring-indigo-300 transition duration-300">
+                        <p class="text-lg font-bold text-indigo-600">NIPGR, NABI, CIAB, ARI</p>
+                        <p class="text-sm text-gray-500">Focus: Crop Genomics, Gene Expression, Food Bioprocessing Informatics.</p>
+                        <p class="text-xs text-gray-500 mt-2">Pioneering research in plant and food genomics and computational agriculture.</p>
+                    </div>
+                    <!-- ICAR Network Summary Card -->
+                    <div class="p-4 bg-white rounded-lg container-shadow hover:ring-2 ring-indigo-300 transition duration-300">
+                        <p class="text-lg font-bold text-indigo-600">ICAR Institutes & Agricultural Universities</p>
+                        <p class="text-sm text-gray-500">Focus: Livestock Genomics, Crop Improvement, Statistical Genetics, Biometrics.</p>
+                        <p class="text-xs text-gray-500 mt-2">Covers hundreds of institutes (e.g., IARI, NDRI, IVRI) and State Agricultural Universities (SAUs) for agri-informatics roles.</p>
+                    </div>
+                     <!-- General Science Institutes -->
+                    <div class="p-4 bg-white rounded-lg container-shadow hover:ring-2 ring-indigo-300 transition duration-300">
+                        <p class="text-lg font-bold text-indigo-600">DST/CSIR Centers (Bose, IIG, ARI)</p>
+                        <p class="text-sm text-gray-500">Focus: Core Computational Biology, Interdisciplinary Science, Theoretical Modeling.</p>
+                        <p class="text-xs text-gray-500 mt-2">Includes DST Institutes that host Bioinformatics components, even if core research is physical science.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- NEW SECTION: Comprehensive Institute List (The "Links File") -->
+        <section class="mb-10 p-4 bg-indigo-50 rounded-xl border border-indigo-200">
+            <div id="full-list-header" class="collapsible-header flex justify-between items-center text-xl font-bold text-indigo-700 p-2 rounded-lg">
+                <span>View Comprehensive List of 150+ Institutes (Public Sector)</span>
+                <svg id="full-list-arrow" class="w-5 h-5 rotate-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            </div>
+            
+            <div id="full-list-content" class="collapsible-content bg-white rounded-b-lg container-shadow">
+                
+                <h4 class="text-lg font-semibold text-indigo-600 mt-4 mb-2">DBT & General Life Science Institutes</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-700 mb-4">
+                    <p>Centre for DNA Fingerprinting and Diagnostics (CDFD)</p>
+                    <p>National Institute of Biomedical Genomics (NIBMG)</p>
+                    <p>Translational Health Science and Technology Institute (THSTI)</p>
+                    <p>Rajiv Gandhi Centre for Biotechnology (RGCB)</p>
+                    <p>National Institute of Immunology (NII)</p>
+                    <p>National Institute of Plant Genome Research (NIPGR)</p>
+                    <p>Center of Innovative and Applied Bioprocessing (CIAB)</p>
+                    <p>National Institute of Animal Biotechnology (NIAB)</p>
+                    <p>National Centre for Cell Science (NCCS)</p>
+                    <p>National Brain Research Centre (NBRC)</p>
+                    <p>Kalam Institute of Health Technology (KIHT)</p>
+                    <p>Institute of Life Sciences (ILS)</p>
+                    <p>Institute of Bioresources and Sustainable Development (IBSD)</p>
+                    <p>National Agri-Food Biotechnology Institute (NABI)</p>
+                    <p>Agharkar Research Institute (ARI)</p>
+                    <p>Bose Institute</p>
+                    <p>National Innovation Foundation (NIF)</p>
+                    <p>Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)</p>
+                </div>
+
+                <h4 class="text-lg font-semibold text-indigo-600 mt-4 mb-2">ICMR - Medical & Health Research Centers</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-700 mb-4">
+                    <p>ICMR-National Institute of Virology (NIV)</p>
+                    <p>ICMR-National Institute of Nutrition (NIN)</p>
+                    <p>ICMR-National Institute of Epidemiology (NIE)</p>
+                    <p>ICMR-National Institute of Tuberculosis and Respiratory Diseases</p>
+                    <p>ICMR-National Centre for Disease Informatics and Research (NCDIR)</p>
+                    <p>ICMR-National Institute of Malaria Research (NIMR)</p>
+                    <p>ICMR-National Institute of Pathology (NIP)</p>
+                    <p>ICMR-National Institute of Medical Statistics (NIMS)</p>
+                    <p>ICMR-National Institute for Research in Tribal Health (NIRTH)</p>
+                    <p>ICMR-National Institute of Cholera and Enteric Diseases (NICED)</p>
+                    <p>ICMR-National Institute for Research in Reproductive Health (NIRRH)</p>
+                    <p>ICMR-National Institute of Immunohematology (NIIH)</p>
+                    <p>ICMR-National Institute of Cancer Prevention and Research (NICPR)</p>
+                    <p>ICMR-National Institute of Occupational Health (NIOH)</p>
+                    <p>ICMR-National JALMA Institute for Leprosy & Other Mycobacterial Diseases (NJILOMD)</p>
+                    <p>ICMR Vector Control Research Centre (VCRC)</p>
+                    <p>ICMR-National AIDS Research Institute (NARI)</p>
+                    <p>... and all other ICMR Regional Medical Research Centers and Units.</p>
+                </div>
+
+                <h4 class="text-lg font-semibold text-indigo-600 mt-4 mb-2">ICAR - Agricultural & Allied Sciences Network</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-700 mb-4">
+                    <p>Indian Agricultural Research Institute (IARI)</p>
+                    <p>National Dairy Research Institute (NDRI)</p>
+                    <p>Indian Veterinary Research Institute (IVRI)</p>
+                    <p>ICAR-Indian Institute of Agricultural Biotechnology</p>
+                    <p>ICAR-National Institute of Agricultural Economics and Policy Research</p>
+                    <p>Central Institute of Fisheries Education</p>
+                    <p>Central Institute Brackishwater Aquaculture</p>
+                    <p>Central Institute for Research on Buffaloes</p>
+                    <p>Central Institute of Cotton Research</p>
+                    <p>Central Marine Fisheries Research Institute</p>
+                    <p>Central Potato Research Institute</p>
+                    <p>Indian Agricultural Statistical Research Institute (IASRI)</p>
+                    <p>... and all associated ICAR Research Complexes, Central Institutes, and State Agricultural Universities (SAUs).</p>
+                </div>
+                
+                <h4 class="text-lg font-semibold text-indigo-600 mt-4 mb-2">General Science & Technical Institutes (DST/CSIR)</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-700 mb-4">
+                    <p>Aryabhatta Research Institute of Observational-Sciences (ARIES)</p>
+                    <p>Birbal Sahni Institute of Palaeobotany (BSIP)</p>
+                    <p>Centre for Nano and Soft Matter Sciences (CeNS)</p>
+                    <p>Indian Institute of Astrophysics (IIA)</p>
+                    <p>Indian Institute of Geomagnetism (IIG)</p>
+                    <p>International Advanced Research Centre for Powder Metallurgy (ARCI)</p>
+                    <p>Institute of Nano Science and Technology (INST)</p>
+                    <p>Indian Association for the Cultivation of Science (IACS)</p>
+                    <p>Raman Research Institute (RRI)</p>
+                    <p>S.N. Bose National Centre for Basic Sciences</p>
+                    <p>Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST)</p>
+                    <p>The Institute of Advanced Study in Science & Technology (IASST)</p>
+                    <p>North East Centre For Technology Application & Reach (NECTAR)</p>
+                    <p>Wadia Institute of Himalayan Geology</p>
+                    <p>Vigyan Prasar (VP)</p>
+                </div>
+
+                <h4 class="text-lg font-semibold text-indigo-600 mt-4 mb-2">Top Academic & Medical Institutions</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-700 mb-4">
+                    <p>All India Institute of Medical Sciences (AIIMS), New Delhi</p>
+                    <p>Postgraduate Institute of Medical Education and Research (PGIMER)</p>
+                    <p>Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)</p>
+                    <p>Banaras Hindu University (BHU), Varanasi</p>
+                    <p>King George's Medical University (KGMU), Lucknow</p>
+                    <p>University of Delhi, Mumbai, Calcutta, Madras, Pune Medical Faculties</p>
+                    <p>National Institute of Mental Health and Neurosciences (NIMHANS)</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Call to Action -->
+        <section class="p-6 bg-indigo-50 rounded-xl border border-indigo-200">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Next Steps for Finding Openings</h3>
+            <ul class="list-disc ml-6 text-gray-600 space-y-2">
+                <li><strong class="text-indigo-600">Direct Institute Websites:</strong> Always check the "Careers" or "Recruitment" section of the specific institutes (e.g., CDFD, NII, NIPGR) as they advertise JRF, PDF, and technical positions directly.</li>
+                <li><strong class="text-indigo-600">Departmental PIs:</strong> For research fellowships (JRF/SRF), jobs are often advertised under a specific Principal Investigator (PI) for a grant project. Look at faculty pages for project listings.</li>
+                <li><strong class="text-indigo-600">Official Govt. Portals:</strong> Look for recruitment advertisements on the official websites of funding agencies like DBT, DST, and ICMR.</li>
+            </ul>
+        </section>
+
+    </main>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById('full-list-header');
+            const content = document.getElementById('full-list-content');
+            const arrow = document.getElementById('full-list-arrow');
+
+            header.addEventListener('click', () => {
+                const isOpen = content.classList.toggle('open');
+                arrow.classList.toggle('open', isOpen);
+            });
+        });
+    </script>
+</body>
+</html>
